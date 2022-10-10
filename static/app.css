@@ -42,6 +42,10 @@ body {
 	text-decoration: underline;
 }
 
+#content ul li {
+	list-style: disc;
+}
+
 #content img {
 	max-width: 100%;
 }
