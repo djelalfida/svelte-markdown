@@ -1,7 +1,26 @@
+@import 'https://use.typekit.net/rcr1opg.css';
+*,
+:before,
+:after {
+	box-sizing: border-box;
+	border-width: 0;
+	border-style: solid;
+	border-color: currentColor;
+}
+
 body {
 	font-family: 'Open Sans';
-	background-color: rgb(20, 26, 28);
+	background-color: rgba(3, 3, 20, 0.99);
 	color: #fff;
+}
+
+html {
+	line-height: 1.5;
+	-webkit-text-size-adjust: 100%;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	font-family: sofia-pro, sans-serif;
 }
 
 /**
@@ -14,7 +33,7 @@ body {
 code[class*='language-'],
 pre[class*='language-'] {
 	color: #d6e7ff;
-	background: #030314;
+	background-color: rgb(18 24 27);
 	text-shadow: none;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	font-size: 1em;
@@ -54,8 +73,7 @@ code[class*='language-'] ::selection {
 }
 
 pre[class*='language-'] {
-	border: 1px solid #2a4555;
-	border-radius: 5px;
+	border: 2px solid rgb(42 46 53);
 	padding: 1.5em 1em;
 	margin: 1em 0;
 	overflow: auto;

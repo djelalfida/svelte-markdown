@@ -3,6 +3,7 @@ title: Hello World
 author: Djelal Fida
 date: 2022-10-10
 cover: https://www.zend.com/sites/default/files/image/2019-09/logo-laravel.jpg
+tags: javascript about
 ---
 
 <script>

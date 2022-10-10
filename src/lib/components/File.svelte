@@ -3,36 +3,41 @@
 	export let fileType = '';
 
 	const fileIcon = {
-		csharp: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png',
-		svelte:
-			'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1702px-Svelte_Logo.svg.png',
-		js: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png'
+		svelte: '/images/icons/svelte.svg',
+		csharp: '/images/icons/csharp.svg',
+		js: '/images/icons/js.svg'
 	};
 </script>
 
-<p style="--file-icon: url({fileIcon[fileType]})">{fileName}.{fileType}</p>
+<div class="file-name">
+	<span class="file-icon">
+		<img src={fileIcon[fileType]} alt={fileType} />
+	</span>
+	{fileName}.{fileType}
+</div>
 
 <style>
-	p {
-		border: 1px solid #2a4555;
-		margin-bottom: -20px;
-		background-color: #030314;
-		color: #fff;
-		padding: 1rem;
-		width: 12rem;
-		text-transform: capitalize;
-		border-radius: 5px 5px 0 0;
+	.file-name {
+		position: relative;
+		bottom: -18px;
+		z-index: 50;
+		display: inline-flex;
+		align-items: center;
+		border-top-width: 2px;
+		border-left-width: 2px;
+		border-right-width: 2px;
+		--tw-border-opacity: 1;
+		border-color: rgb(42 46 53 / var(--tw-border-opacity));
+		--tw-bg-opacity: 1;
+		background-color: rgb(18 24 27 / var(--tw-bg-opacity));
+		padding: 0.5rem 1rem 0.5rem 0.5rem;
+		--tw-text-opacity: 1;
+		color: rgb(108 121 131 / var(--tw-text-opacity));
 	}
 
-	p::before {
-		content: ' ';
-		background: var(--file-icon) no-repeat;
-		background-size: auto;
-		height: 40px;
-		display: inline-block;
-		vertical-align: middle;
-		background-size: contain;
-		width: 40px;
-		margin-right: 4%;
+	.file-name .file-icon img {
+		margin-right: 0.5rem;
+		display: block;
+		width: 1.25rem;
 	}
 </style>
