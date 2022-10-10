@@ -7,3 +7,9 @@
 	<p>Published: {data.date}</p>
 	<svelte:component this={data.content} />
 </article>
+
+<style>
+	h1 {
+		font-size: 2.5rem;
+	}
+</style>

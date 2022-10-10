@@ -9,12 +9,6 @@ cover: https://www.zend.com/sites/default/files/image/2019-09/logo-laravel.jpg
 import File from '$lib/components/File.svelte'
 </script>
 
-# {title}
-
-This is a test
-
-author: {author}
-
 <File fileName={"+app"} fileType={"svelte"} />
 
 ```svelte

@@ -36,6 +36,10 @@ pre[class*='language-'] {
 	hyphens: none;
 }
 
+code {
+	white-space: pre-wrap !important;
+}
+
 pre[class*='language-']::-moz-selection,
 pre[class*='language-'] ::-moz-selection,
 code[class*='language-']::-moz-selection,

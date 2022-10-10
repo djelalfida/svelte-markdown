@@ -7,11 +7,9 @@
 	export let published = '';
 </script>
 
-<div>
-	<h2><a href={url}>{title}</a></h2>
-	<p>Published {formatDate(published)}</p>
-	<img src={image} alt={title} />
-</div>
+<h2><a data-sveltekit-prefetch href={url}>{title}</a></h2>
+<p>Published {formatDate(published)}</p>
+<img src={image} alt={title} />
 
 <style>
 	div {
@@ -24,10 +22,6 @@
 
 	h2 a {
 		color: #fff;
-	}
-
-	h2 a:hover {
-		color: #f00;
 	}
 
 	img {

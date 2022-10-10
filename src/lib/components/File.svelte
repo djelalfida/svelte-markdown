@@ -14,7 +14,8 @@
 
 <style>
 	p {
-		margin-bottom: -15px;
+		border: 1px solid #2a4555;
+		margin-bottom: -20px;
 		background-color: #030314;
 		color: #fff;
 		padding: 1rem;
