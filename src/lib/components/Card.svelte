@@ -9,44 +9,72 @@
 	export let title = '';
 	export let published = '';
 	export let tags = '';
+	export let description = '';
 	export let animations = {};
 </script>
 
-<div
+<li
 	in:fly={{
 		y: animations.y,
 		delay: animations.delay,
 		easing: backOut
 	}}
+	class="list-none p-0"
 >
-	<h2><a data-sveltekit-prefetch href={url}>{title}</a></h2>
-	{#each tags.split(' ') as tag}
-		<Tag tagName={tag} />
-	{/each}
+	<article class="card">
+		<a href={url} class="no-underline">
+			<img class="w-full m-0 mb-1 rounded-t-xl" src={image} alt={title} />
 
-	<p>Published {formatDate(published)}</p>
-	<img src={image} alt={title} />
-</div>
+			<section class="content">
+				<h5>{title}</h5>
+				<p class="text-gray3 min-h-[100px]">
+					{description}
+				</p>
+
+				<div class="tags">
+					{#each tags.split(' ') as tag}
+						<Tag tagName={tag} />
+					{/each}
+				</div>
+			</section>
+		</a>
+	</article>
+</li>
 
 <style>
-	div {
-		border: 1px solid #ccc;
-		color: #fff;
-		padding: 1rem;
-		border-radius: 5px;
+	.card {
+		background-color: rgb(42 46 53);
+		border-radius: 15px;
+	}
+
+	.content {
+		padding: 0 2rem 0.8rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	article {
+		height: 100%;
+		max-width: 24rem;
+	}
+
+	article img {
+		max-width: 100%;
+	}
+
+	article p {
+		color: rgb(178 190 205);
+	}
+
+	h5 {
+		font-size: 1.5rem;
+		font-weight: 600;
+		margin-top: 1.2rem;
 		margin-bottom: 2%;
-	}
-
-	h2 {
-		margin-bottom: 0;
-	}
-
-	h2 a {
-		color: #fff;
 	}
 
 	img {
 		max-width: 50%;
-		border-radius: 5px;
+		border-radius: 5px 5px 0 0;
 	}
 </style>

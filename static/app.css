@@ -14,6 +14,46 @@ body {
 	color: #fff;
 }
 
+#content {
+	margin-bottom: 2rem;
+}
+
+#content h1 {
+	font-size: 1.8em;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 1%;
+}
+
+#content p {
+	font-size: 1.2em;
+	font-weight: 400;
+	margin: 0;
+	margin-bottom: 1%;
+}
+
+#content p > code {
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 0.2em;
+}
+
+#content p > a {
+	color: #0fe468;
+	text-decoration: underline;
+}
+
+#content img {
+	max-width: 100%;
+}
+
+#content blockquote {
+	border-left: 0.25em solid #fff;
+	padding-left: 1em;
+	margin: 1rem 0;
+	padding: 1rem;
+	background-color: rgb(42 46 53);
+}
+
 html {
 	line-height: 1.5;
 	-webkit-text-size-adjust: 100%;

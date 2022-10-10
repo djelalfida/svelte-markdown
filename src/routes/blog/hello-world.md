@@ -1,66 +1,31 @@
 ---
-title: Hello World
+title: How I made my blog using Svelte
 author: Djelal Fida
 date: 2022-10-10
-cover: https://www.zend.com/sites/default/files/image/2019-09/logo-laravel.jpg
-tags: javascript about
+cover: https://res.cloudinary.com/practicaldev/image/fetch/s--rSOMuWAr--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gg7fp7w1n0mmknq3qt69.png
+description: How I made my blog using Svelte
+tags: javascript svelte md
 ---
 
-<script>
-import File from '$lib/components/File.svelte'
-</script>
+# 🚀 How I made my blog using Svelte
 
-<File fileName={"+app"} fileType={"svelte"} />
+> This is a tutorial on how I made my blog using Svelte. I will be using SvelteKit, a framework for building web applications of all sizes, with a file-based routing system, built-in support for TypeScript and many other features.
 
-```svelte
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-```
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--rSOMuWAr--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gg7fp7w1n0mmknq3qt69.png)
 
-<File fileName={"program"} fileType={"csharp"} />
+# 🔭 What is SvelteKit?
 
-```csharp
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World!");
-    }
-}
-```
+SvelteKit is a framework for building web applications of all sizes, with a file-based routing system, built-in support for TypeScript and many other features.
 
-<File fileName={"main"} fileType={"js"} />
+# 🤯 Why SvelteKit?
 
-```js
-console.log('Hello World!');
-```
+`Sveltekit` is a framework that is built on top of Svelte, a compiler that converts your declarative components into efficient JavaScript that surgically updates the DOM. SvelteKit is a framework that is built on top of Svelte, a compiler that converts your declarative components into efficient JavaScript that surgically updates the DOM. link to sveltekit: [SvelteKit](https://kit.svelte.dev/)
 
-# Random image
+# 👉 What is MDSVEX?
 
-![](https://picsum.photos/200/300)
+`mdsvex` is a markdown preprocessor for Svelte. It allows you to write markdown files and import them as Svelte components. It also allows you to write Svelte components inside markdown files. link to mdsvex: [mdsvex](https://mdsvex.com/)
 
-# markdown root file tree
+# 📝 How to use MDSVEX?
 
-```bash
-├── README.md
-├── package.json
-├── package-lock.json
-├── svelte.config.js
-├── src
-│   ├── components
-│   │   ├── file.svelte
-│   │   └── markdown.svelte
-│   ├── lib
-│   │   └── markdown.js
-│   ├── routes
-│   │   ├── _error.svelte
-│   │   ├── _layout.svelte
-│   │   ├── blog
-│   │   │   ├── +page.md
-│   │   │   └── index.svelte
-│   │   ├── index.svelte
-│   │   └── test.svx
-│   └── static
-│       └── favicon.png
-└── tsconfig.json
-```
+Follow the steps below to use `mdsvex`:
+[Tutorial](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog#approach-2-dynamic-routes)
