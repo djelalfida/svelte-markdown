@@ -1,3 +1,5 @@
+export const prerender = false;
+
 export async function load({ params }) {
 	const post = await import(`../${params.slug}.md`);
 	const content = post.default;
