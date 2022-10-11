@@ -11,7 +11,9 @@ const config = {
 		adapter: adapter()
 	},
 
-	preprocess: [mdsvex(mdsvexConfig)]
+	preprocess: [mdsvex(mdsvexConfig)],
+
+	trailingSlash: 'always'
 };
 
 export default config;

@@ -16,6 +16,7 @@
 <li
 	in:fly={{
 		y: animations.y,
+		x: animations.x,
 		delay: animations.delay,
 		easing: backOut
 	}}

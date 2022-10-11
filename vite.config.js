@@ -5,9 +5,7 @@ import path from 'path';
 const config = {
 	plugins: [sveltekit()],
 	resolve: {
-		alias: {
-			$lib: path.resolve(__dirname, './src/lib')
-		}
+		alias: {}
 	}
 };
 
