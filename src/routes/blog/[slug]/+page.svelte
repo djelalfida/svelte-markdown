@@ -12,6 +12,8 @@
 	<title>{data.title}</title>
 	<meta name="description" content={data.description} />
 
+	<meta name="keywords" content={data.tags.split(' ').join(',')} />
+
 	<meta property="og:title" content={data.title} />
 	<meta property="og:description" content={data.description} />
 	<meta property="og:image" content={data.cover} />

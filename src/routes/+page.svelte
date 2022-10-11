@@ -10,6 +10,9 @@
 
 <svelte:head>
 	<title>Welcome to {name}'s blog</title>
+
+	<meta name="description" content="Welcome to {name}'s blog" />
+	<meta name="keywords" content="blog, svelte, sveltekit" />
 </svelte:head>
 
 <ul class="posts">
@@ -30,7 +33,8 @@
 	.posts {
 		margin-top: 2rem;
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(auto-fill, clamp(24rem, 25vw, 2rem));
 		gap: 2rem;
+		padding: 0;
 	}
 </style>

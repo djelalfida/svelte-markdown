@@ -23,12 +23,12 @@
 	class="list-none p-0"
 >
 	<article class="card">
-		<a href={url} class="no-underline">
-			<img class="w-full m-0 mb-1 rounded-t-xl" src={image} alt={title} />
+		<a href={url}>
+			<img src={image} alt={title} />
 
 			<section class="content">
 				<h5>{title}</h5>
-				<p class="text-gray3 min-h-[100px]">
+				<p>
 					{description}
 				</p>
 
@@ -63,6 +63,20 @@
 	article {
 		height: 100%;
 		max-width: 24rem;
+	}
+
+	article a {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	article section {
+		height: 100%;
+	}
+
+	.tags {
+		margin-top: auto;
 	}
 
 	article img {

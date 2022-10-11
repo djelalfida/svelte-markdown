@@ -2,7 +2,7 @@
 	export let tagName = '';
 </script>
 
-<p class={tagName}>#{tagName}</p>
+<p class="tag {tagName}">#{tagName}</p>
 
 <style>
 	p {
@@ -114,5 +114,9 @@
 	.conference {
 		background: #ff5722;
 		color: #fff;
+	}
+
+	.tag:hover {
+		transform: translateY(-5px);
 	}
 </style>
