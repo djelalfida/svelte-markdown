@@ -62,6 +62,8 @@
 	.laravel {
 		background: #ff2d20;
 		color: #fff;
+
+		box-shadow: 0 0 10px #ff2d20, 0 0 40px #e8271c, 0 0 80px #ff2d20;
 	}
 
 	.vue {
@@ -91,6 +93,26 @@
 
 	.md {
 		background: #000;
+		color: #fff;
+	}
+
+	.vite {
+		background: linear-gradient(90deg, #646cff, #7f5af0);
+		color: #fff;
+	}
+
+	.github {
+		background: #181717;
+		color: #fff;
+	}
+
+	.gitlab {
+		background: #fc6d26;
+		color: #fff;
+	}
+
+	.conference {
+		background: #ff5722;
 		color: #fff;
 	}
 </style>

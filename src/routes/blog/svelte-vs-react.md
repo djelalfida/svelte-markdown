@@ -5,6 +5,7 @@ date: 2022-10-10
 cover: https://coletiv.com/static/an-intro-to-svelte-for-reactjs-developers-20ec309be48d6ac27a55f00bbccb0ccd.png
 description: A comparison between Svelte and React. Which one is better?
 tags: react svelte javascript
+gradients: ['#']
 ---
 
 # 🚀 Svelte vs React
@@ -98,3 +99,5 @@ Both Svelte and React have a good TypeScript support.
 # 📚 Conclusion
 
 Svelte is better than React.
+
+# brief voor stage, ik heb al een stageplek gevonden

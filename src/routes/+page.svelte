@@ -11,7 +11,7 @@
 	<title>Welcome to {name}'s blog</title>
 </svelte:head>
 
-<div class="posts">
+<ul class="posts">
 	{#each data.posts as post, i}
 		<Card
 			url={post.path}
@@ -23,7 +23,7 @@
 			description={post.meta.description}
 		/>
 	{/each}
-</div>
+</ul>
 
 <style>
 	.posts {

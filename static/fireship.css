@@ -6,6 +6,8 @@
 	border-width: 0;
 	border-style: solid;
 	border-color: currentColor;
+
+	transition: all 0.2s cubic-bezier(0.8, 0.38, 0.09, 0.82);
 }
 :before,
 :after {

@@ -45,6 +45,12 @@
 	.card {
 		background-color: rgb(42 46 53);
 		border-radius: 15px;
+
+		box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+	}
+
+	.card:hover {
+		transform: scale(1.04);
 	}
 
 	.content {
