@@ -2,7 +2,9 @@
 	export let tagName = '';
 </script>
 
-<p class="tag {tagName}">#{tagName}</p>
+<a href="/?tag={tagName}">
+	<p class="tag {tagName}">#{tagName}</p>
+</a>
 
 <style>
 	p {

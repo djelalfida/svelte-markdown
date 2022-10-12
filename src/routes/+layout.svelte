@@ -4,11 +4,11 @@
 	import { backOut } from 'svelte/easing';
 	import { onMount } from 'svelte';
 
-	let animate = true;
+	let animate = false;
 
-	setTimeout(() => {
+	onMount(() => {
 		animate = true;
-	}, 10);
+	});
 
 	export let data;
 </script>

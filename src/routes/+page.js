@@ -1,8 +1,16 @@
-export const load = async ({ fetch }) => {
+/** @type {import('./$types').PageLoad} */
+export const load = async ({ fetch, url }) => {
 	const response = await fetch(`/api/posts`);
-	const posts = await response.json();
+	let posts = await response.json();
+
+	const tag = url.searchParams.get('tag') || null;
+
+	if (tag) {
+		posts = posts.filter((post) => post.meta.tags.includes(tag));
+	}
 
 	return {
-		posts
+		posts,
+		tag
 	};
 };

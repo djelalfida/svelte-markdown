@@ -1,9 +1,6 @@
 <script>
 	import Card from '$lib/components/Card.svelte';
 	import { name } from '$lib/config/config';
-	import { onMount } from 'svelte';
-	import { backOut } from 'svelte/easing';
-	import { fly } from 'svelte/transition';
 
 	export let data;
 </script>
@@ -14,6 +11,10 @@
 	<meta name="description" content="Welcome to {name}'s blog" />
 	<meta name="keywords" content="blog, svelte, sveltekit" />
 </svelte:head>
+
+{#if data.tag}
+	<a href="/">Reset tag</a>
+{/if}
 
 <ul class="posts">
 	{#each data.posts as post, i}
@@ -33,7 +34,7 @@
 	.posts {
 		margin-top: 2rem;
 		display: grid;
-		grid-template-columns: repeat(auto-fill, clamp(24rem, 25vw, 2rem));
+		grid-template-columns: repeat(4, 1fr);
 		gap: 2rem;
 		padding: 0;
 	}
