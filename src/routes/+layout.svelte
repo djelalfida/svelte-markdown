@@ -6,9 +6,9 @@
 
 	let animate = false;
 
-	onMount(() => {
+	setTimeout(() => {
 		animate = true;
-	});
+	}, 80);
 
 	export let data;
 </script>
