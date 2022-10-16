@@ -14,5 +14,7 @@ export const fetchMarkdownPosts = async () => {
 		})
 	);
 
-	return allPosts;
+	const filteredPosts = allPosts.filter((post) => post.meta.visible !== false);
+
+	return filteredPosts;
 };

@@ -6,6 +6,7 @@ cover: https://coletiv.com/static/an-intro-to-svelte-for-reactjs-developers-20ec
 description: A comparison between Svelte and React. Which one is better?
 tags: react svelte javascript
 gradients: ['#']
+visible: false
 ---
 
 # 🚀 Svelte vs React

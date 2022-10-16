@@ -23,6 +23,7 @@ body {
 	font-weight: 700;
 	margin: 0;
 	margin-bottom: 1%;
+	margin-top: 4%;
 }
 
 #content p {
@@ -30,6 +31,7 @@ body {
 	font-weight: 400;
 	margin: 0;
 	margin-bottom: 1%;
+	line-height: 1.8;
 }
 
 #content p > code {
@@ -56,6 +58,10 @@ body {
 	margin: 1rem 0;
 	padding: 1rem;
 	background-color: rgb(42 46 53);
+}
+
+#content hr {
+	border-color: #2a2e35;
 }
 
 html {

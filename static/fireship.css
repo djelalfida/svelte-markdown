@@ -130,6 +130,23 @@ li {
 	list-style-type: none;
 }
 
+article h2 {
+	font-size: 1.4rem;
+	position: relative;
+	margin-top: 2rem;
+}
+
+/* article h2::before {
+	content: '';
+	background: linear-gradient(to right, #0fe468, #49c6ec);
+	width: 20%;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	z-index: -2;
+} */
+
 /* @media (prefers-color-scheme: dark) {
 	html {
 		background-color: rgb(18 24 27);

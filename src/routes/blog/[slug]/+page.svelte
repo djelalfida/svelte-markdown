@@ -1,4 +1,5 @@
 <script>
+	import Tag from '$lib/components/Tag.svelte';
 	import { formatDate } from '$lib/utils/formDate';
 
 	export let data;
@@ -32,6 +33,12 @@
 	<h2>Posted by: {data.author}</h2>
 	<p>Published: {formatDate(data.date)}</p>
 
+	<div class="tags">
+		{#each data.tags.split(' ') as tag}
+			<Tag tagName={tag} />
+		{/each}
+	</div>
+
 	<section id="content">
 		<svelte:component this={data.content} />
 	</section>
@@ -43,6 +50,10 @@
 		width: 60%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.tags {
+		width: 80%;
 	}
 
 	#content {

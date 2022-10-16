@@ -25,7 +25,7 @@
 			image={post.meta.cover}
 			title={post.meta.title}
 			published={post.meta.date}
-			animations={{ y: 100, delay: 400 * i, x: 80 * i }}
+			animations={{ y: 100, delay: 100 * i, x: 80 * i }}
 			tags={post.meta.tags}
 			description={post.meta.description}
 		/>

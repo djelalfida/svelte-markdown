@@ -5,7 +5,6 @@ date: 2022-10-10
 cover: https://res.cloudinary.com/practicaldev/image/fetch/s--rSOMuWAr--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gg7fp7w1n0mmknq3qt69.png
 description: How I made my blog using Svelte
 tags: javascript svelte md
-gradients: ['#fff', '#000']
 ---
 
 # 🚀 How I made my blog using Svelte

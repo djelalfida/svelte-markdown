@@ -6,4 +6,5 @@ cover: https://social-img.staticblitz.com/viteconf2022-tickets/zxtox/svelte
 description: Vite conference 2022
 tags: vite conference github gitlab
 gradient: ['#54c8fa', '#be1cfa']
+visible: false
 ---

@@ -132,4 +132,34 @@
 		background: #0080ff;
 		color: #fff;
 	}
+
+	.microsoft {
+		background: #f65314;
+		color: #fff;
+	}
+
+	.azure {
+		background: linear-gradient(90deg, #007fff, #00b4ff);
+		color: #fff;
+	}
+
+	.powerplatform {
+		background: linear-gradient(90deg, #ff8c00, #ffbb00);
+		color: #fff;
+	}
+
+	.powershell {
+		background: #012456;
+		color: #fff;
+	}
+
+	.powerautomate {
+		background: #0066ff;
+		color: #fff;
+	}
+
+	.event {
+		background: #a4c8ff;
+		color: #000;
+	}
 </style>
