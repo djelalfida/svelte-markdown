@@ -1,4 +1,4 @@
-export const prerender = true;
+export const prerender = false;
 
 export const load = ({ url }) => {
 	const currentRoute = url.pathname;
