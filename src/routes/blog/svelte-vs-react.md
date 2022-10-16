@@ -99,5 +99,3 @@ Both Svelte and React have a good TypeScript support.
 # 📚 Conclusion
 
 Svelte is better than React.
-
-# brief voor stage, ik heb al een stageplek gevonden

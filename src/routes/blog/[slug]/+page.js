@@ -1,4 +1,5 @@
 export const csr = true;
+export const ssr = true;
 
 export async function load({ params }) {
 	const post = await import(`../${params.slug}.md`);
