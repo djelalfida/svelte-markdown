@@ -2,32 +2,19 @@
 	import Header from '$lib/components/Header.svelte';
 	import { fly } from 'svelte/transition';
 	import { backOut } from 'svelte/easing';
-	import { onMount } from 'svelte';
-
-	let animate = false;
-
-	onMount(() => {
-		animate = true;
-	});
-
-	export let data;
 </script>
 
-{#if animate}
-	{#key data.currentRoute}
-		<main
-			data-sveltekit-prefetch
-			in:fly={{
-				y: 100,
-				delay: 300,
-				easing: backOut
-			}}
-		>
-			<Header />
-			<slot />
-		</main>
-	{/key}
-{/if}
+<main
+	data-sveltekit-prefetch
+	in:fly={{
+		y: 100,
+		delay: 300,
+		easing: backOut
+	}}
+>
+	<Header />
+	<slot />
+</main>
 
 <style>
 	main {

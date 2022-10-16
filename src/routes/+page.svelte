@@ -12,9 +12,9 @@
 	<meta name="keywords" content="blog, svelte, sveltekit" />
 </svelte:head>
 
-{#if data.tag}
+<!-- {#if data.tag}
 	<a href="/">Reset tag</a>
-{/if}
+{/if} -->
 
 <h2>Blog</h2>
 
