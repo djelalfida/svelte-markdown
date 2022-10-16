@@ -14,7 +14,13 @@ const config = {
 
 	preprocess: [mdsvex(mdsvexConfig)],
 
-	trailingSlash: 'always'
+	trailingSlash: 'always',
+
+	vitePlugin: {
+		experimental: {
+			useVitePreprocess: true
+		}
+	}
 };
 
 export default config;

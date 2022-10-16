@@ -7,7 +7,6 @@
 	export let url = '';
 	export let image = '';
 	export let title = '';
-	export let published = '';
 	export let tags = '';
 	export let description = '';
 	export let animations = {};
