@@ -16,6 +16,8 @@
 	<a href="/">Reset tag</a>
 {/if}
 
+<h2>Blog</h2>
+
 <ul class="posts">
 	{#each data.posts as post, i}
 		<Card
@@ -37,5 +39,9 @@
 		grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 		gap: 2rem;
 		padding: 0;
+	}
+
+	h2 {
+		font-size: 2.8rem;
 	}
 </style>

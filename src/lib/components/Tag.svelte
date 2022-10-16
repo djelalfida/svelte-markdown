@@ -19,6 +19,7 @@
 		line-height: 1rem;
 		--tw-text-opacity: 1;
 		color: rgb(178 190 205 / var(--tw-text-opacity));
+		font-weight: 600;
 	}
 
 	.javascript {
@@ -120,5 +121,15 @@
 
 	.tag:hover {
 		transform: translateY(-5px);
+	}
+
+	.linux {
+		background: linear-gradient(90deg, #f7df1e, #fbc830);
+		color: #000;
+	}
+
+	.deploy {
+		background: #0080ff;
+		color: #fff;
 	}
 </style>
