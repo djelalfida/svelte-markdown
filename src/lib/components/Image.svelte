@@ -9,7 +9,7 @@
 	<figcaption>{altText}</figcaption>
 </figure>
 
-<style lang="scss">
+<style>
 	figure {
 		margin: 4% auto;
 	}
