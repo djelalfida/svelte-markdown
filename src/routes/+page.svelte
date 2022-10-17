@@ -10,6 +10,15 @@
 
 	<meta name="description" content="Welcome to {name}'s blog" />
 	<meta name="keywords" content="blog, svelte, sveltekit" />
+
+	<meta property="og:title" content="Welcome to {name}'s blog" />
+	<meta property="og:description" content="Welcome to {name}'s blog" />
+	<meta property="og:url" content="https://djelalfida.com" />
+
+	<meta name="twitter:title" content="Welcome to {name}'s blog" />
+	<meta name="twitter:description" content="Welcome to {name}'s blog" />
+
+	<link rel="canonical" href="https://djelalfida.com" />
 </svelte:head>
 
 <!-- {#if data.tag}
