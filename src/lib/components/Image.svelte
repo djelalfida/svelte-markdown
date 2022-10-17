@@ -24,6 +24,11 @@
 		border-radius: 0.375rem;
 	}
 
+	.max-size {
+		width: 100% !important;
+		object-fit: cover;
+	}
+
 	.large {
 		max-width: 100%;
 	}

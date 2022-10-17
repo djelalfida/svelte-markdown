@@ -12,7 +12,7 @@ gradient: ['#007fff', '#00b4ff']
     import Image from '$lib/components/Image.svelte';
 </script>
 
-<Image imgUrl="https://pbs.twimg.com/media/FfF6QchWAAAf7xz?format=jpg&name=large" altText="collab days" size="medium" />
+<Image imgUrl="https://pbs.twimg.com/media/FfF6QchWAAAf7xz?format=jpg&name=large" altText="collab days" size="medium max-size" />
 
 # 🚀 My day at CollabDays in Brussels
 
