@@ -1,4 +1,5 @@
 <script>
+	import Toc from 'svelte-toc';
 	import Image from '$lib/components/Image.svelte';
 	import Tag from '$lib/components/Tag.svelte';
 	import { formatDate } from '$lib/utils/formDate';
@@ -41,6 +42,13 @@
 	</div>
 
 	<section id="content">
+		<Toc
+			--toc-width="20%"
+			--toc-active-bg="linear-gradient(to right, #007fff, #00b4ff)"
+			--toc-mobile-bg="#000"
+			--toc-li-padding="2%"
+			--toc-hover-color="#00b4ff"
+		/>
 		<Image imgUrl={data.cover} altText={data.coverAlt} size="medium max-size" />
 		<svelte:component this={data.content} />
 	</section>

@@ -20,6 +20,7 @@ html {
 	-o-tab-size: 4;
 	tab-size: 4;
 	font-family: sofia-pro, sans-serif;
+	scroll-behavior: smooth;
 }
 body {
 	margin: 0;

@@ -44,9 +44,13 @@ body {
 	text-decoration: underline;
 }
 
-#content ul li {
-	list-style: disc;
+#content > :last-child {
+	margin-bottom: 4%;
 }
+
+/* #content ul li {
+	list-style: disc;
+} */
 
 #content img {
 	max-width: 100%;
@@ -71,6 +75,30 @@ html {
 	-o-tab-size: 4;
 	tab-size: 4;
 	font-family: sofia-pro, sans-serif;
+}
+
+/* ol {
+	padding: 0;
+}
+
+ol li {
+	margin-bottom: 1%;
+}
+
+.toc-level-1 {
+	font-size: 1.2em;
+	font-weight: 600;
+} */
+
+.toc {
+	position: fixed !important;
+	right: 0 !important;
+}
+
+@media (max-width: 868px) {
+	article {
+		width: 100% !important;
+	}
 }
 
 /**

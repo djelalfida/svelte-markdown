@@ -17,8 +17,6 @@ gradient: ['#007fff', '#00b4ff']
 
 > This is a recap of my day at CollabDays in Brussels. I will be talking about the sessions I attended and the things I learned.
 
-# Sessions
-
 <hr />
 
 # 📝 Calling APIs, Consuming Services and Exposing Data using Power Automate
