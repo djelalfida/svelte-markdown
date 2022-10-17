@@ -3,6 +3,7 @@ title: My day at CollabDays in Brussels
 author: Djelal Fida
 date: 2022-15-10
 cover: https://pbs.twimg.com/media/FfFr0guXEAAiHEM?format=jpg&name=large
+coverAlt: CollabDays 2022 in Brussels
 description: My day at CollabDays in Brussels 2022.
 tags: event microsoft powerplatform azure powershell powerautomate
 gradient: ['#007fff', '#00b4ff']
@@ -11,8 +12,6 @@ gradient: ['#007fff', '#00b4ff']
 <script>
     import Image from '$lib/components/Image.svelte';
 </script>
-
-<Image imgUrl="https://pbs.twimg.com/media/FfF6QchWAAAf7xz?format=jpg&name=large" altText="collab days" size="medium max-size" />
 
 # 🚀 My day at CollabDays in Brussels
 
@@ -40,7 +39,7 @@ Michael Seidl taught us about the MS Graph API and how to use it with PowerShell
 
 # 📝 Blazor + Bot Framework = a Microsoft Teams Platform Dream Team
 
-<Image imgUrl="https://media.discordapp.net/attachments/1027665764439838734/1030899883483340900/20221015_115114.jpg?width=914&height=1219" altText="Stephan Bisser and Thomas Goelles aka the bot specialists" size="small" />
+<Image imgUrl="https://pbs.twimg.com/media/FfGiwbCXkAIvxvZ?format=jpg&name=large" altText="Stephan Bisser and Thomas Goelles aka the bot specialists" size="large" />
 
 Stephan Bisser and Thomas Goelles showed us how we could use Blazor and the Bot Framework to create a bot for Microsoft Teams.
 Tabs and bots are the future of Microsoft Teams and this session was a great introduction to the topic. They showed us how to create a bot using the Bot Framework and how to create a Blazor app that can be used as a tab in Microsoft Teams. They also showed us how to use the Bot Framework to create a bot that can be used in Microsoft Teams. The bot can also be combined with Azure AI to create a bot that can answer questions based on the user's input and the bot's knowledge base.
@@ -49,7 +48,7 @@ Tabs and bots are the future of Microsoft Teams and this session was a great int
 
 # 📝 IT Insecurity - Understanding the Threat of Modern Cyber-attacks
 
-<Image imgUrl="https://media.discordapp.net/attachments/1027665764439838734/1030899883214897182/20221015_144701.jpg?width=914&height=1219" altText="Michael Noel teaching us about modern techniques" size="small" />
+<Image imgUrl="https://pbs.twimg.com/media/FfG_pCNXgAE_ump?format=jpg&name=large" altText="Michael Noel teaching us about modern techniques" size="large" />
 
 Micheal Noel gave us a great introduction to the topic of IT security. He showed us how we could use Microsoft Defender for Identity to secure our identities and how we could use Azure Sentinel to monitor our environment. He also showed us how we could use Microsoft Defender for Cloud Apps to secure our cloud apps. He also showed us how we could use next-generation firewalls to secure our environment.
 

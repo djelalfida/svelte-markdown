@@ -1,4 +1,5 @@
 <script>
+	import Image from '$lib/components/Image.svelte';
 	import Tag from '$lib/components/Tag.svelte';
 	import { formatDate } from '$lib/utils/formDate';
 
@@ -40,6 +41,7 @@
 	</div>
 
 	<section id="content">
+		<Image imgUrl={data.cover} altText={data.coverAlt} size="medium max-size" />
 		<svelte:component this={data.content} />
 	</section>
 </article>
@@ -57,7 +59,7 @@
 	}
 
 	#content {
-		margin-top: 8%;
+		margin-top: 2%;
 	}
 
 	#title {
