@@ -90,6 +90,10 @@ ol li {
 	font-weight: 600;
 } */
 
+aside nav {
+	overflow-x: hidden;
+}
+
 .toc {
 	position: fixed !important;
 	right: 0 !important;
