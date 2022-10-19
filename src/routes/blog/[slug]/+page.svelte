@@ -50,25 +50,28 @@
 			--toc-mobile-bg="#000"
 			--toc-li-padding="2%"
 			--toc-hover-color="#00b4ff"
+			--toc-desktop-sticky-top="10%"
 		/>
 		<Image imgUrl={data.cover} altText={data.coverAlt} size="medium max-size" />
 		<svelte:component this={data.content} />
 
-		<Giscus
-			id="comments"
-			repo="djelalfida/svelte-markdown"
-			repoId="R_kgDOILgvjA"
-			category="comments"
-			categoryId="DIC_kwDOILgvjM4CSFJS"
-			mapping="url"
-			term="Welcome to @giscus/react component!"
-			reactionsEnabled="1"
-			emitMetadata="0"
-			inputPosition="top"
-			theme="dark"
-			lang="en"
-			loading="lazy"
-		/>
+		<div class="giscus">
+			<Giscus
+				id="comments"
+				repo="djelalfida/svelte-markdown"
+				repoId="R_kgDOILgvjA"
+				category="comments"
+				categoryId="DIC_kwDOILgvjM4CSFJS"
+				mapping="url"
+				term="Welcome to @giscus/react component!"
+				reactionsEnabled="1"
+				emitMetadata="0"
+				inputPosition="top"
+				theme="dark"
+				lang="en"
+				loading="lazy"
+			/>
+		</div>
 	</section>
 </article>
 
@@ -78,6 +81,10 @@
 		width: 60%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.giscus {
+		margin-top: 10rem;
 	}
 
 	.tags {

@@ -30,6 +30,7 @@ body {
 	font-family: 'Sofia-pro';
 	background-color: var(--bg-color);
 	color: var(--white-color);
+	overflow-x: hidden;
 }
 
 #content {
