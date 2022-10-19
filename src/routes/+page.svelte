@@ -8,15 +8,15 @@
 <svelte:head>
 	<title>Welcome to {name}'s blog</title>
 
-	<meta name="description" content="Welcome to {name}'s blog" />
-	<meta name="keywords" content="blog, svelte, sveltekit" />
+	<meta name="description" content="{name} personal website" />
+	<meta name="keywords" content="blog, svelte, sveltekit, djelalfida, djelal, fida" />
 
-	<meta property="og:title" content="Welcome to {name}'s blog" />
+	<meta property="og:title" content="{name} personal website" />
 	<meta property="og:description" content="Welcome to {name}'s blog" />
 	<meta property="og:url" content="https://djelalfida.com" />
 
-	<meta name="twitter:title" content="Welcome to {name}'s blog" />
-	<meta name="twitter:description" content="Welcome to {name}'s blog" />
+	<meta name="twitter:title" content="{name} personal website" />
+	<meta name="twitter:description" content="{name} personal website" />
 
 	<link rel="canonical" href="https://djelalfida.com" />
 </svelte:head>
