@@ -12,7 +12,7 @@
 		<li><a href="/project">Projects</a></li>
 		<li class="dark">
 			<a on:click|preventDefault={toggle} href="#">
-				<img src="./images/dark-mode.svg" alt="" />
+				<img src="/images/dark-mode.svg" alt="" />
 			</a>
 		</li>
 	</ul>
