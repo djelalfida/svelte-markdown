@@ -62,7 +62,7 @@
 				repoId="R_kgDOILgvjA"
 				category="comments"
 				categoryId="DIC_kwDOILgvjM4CSFJS"
-				mapping="url"
+				mapping="pathname"
 				term="Welcome to @giscus/react component!"
 				reactionsEnabled="1"
 				emitMetadata="0"
