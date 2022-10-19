@@ -34,6 +34,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@giscus/svelte": "^2.2.0",
 		"rehype-autolink-headings": "^6.1.1"
 	}
 }

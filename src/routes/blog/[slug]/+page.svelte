@@ -1,8 +1,10 @@
 <script>
+	import Giscus from '@giscus/svelte';
 	import Toc from 'svelte-toc';
 	import Image from '$lib/components/Image.svelte';
 	import Tag from '$lib/components/Tag.svelte';
 	import { formatDate } from '$lib/utils/formDate';
+	import { darkMode } from '$lib/stores/stores';
 
 	export let data;
 
@@ -51,6 +53,22 @@
 		/>
 		<Image imgUrl={data.cover} altText={data.coverAlt} size="medium max-size" />
 		<svelte:component this={data.content} />
+
+		<Giscus
+			id="comments"
+			repo="djelalfida/svelte-markdown"
+			repoId="R_kgDOILgvjA"
+			category="comments"
+			categoryId="DIC_kwDOILgvjM4CSFJS"
+			mapping="url"
+			term="Welcome to @giscus/react component!"
+			reactionsEnabled="1"
+			emitMetadata="0"
+			inputPosition="top"
+			theme="dark"
+			lang="en"
+			loading="lazy"
+		/>
 	</section>
 </article>
 
