@@ -16,13 +16,6 @@
 	function saveToLocalStorage(theme) {
 		localStorage.setItem('theme', theme);
 	}
-
-	onMount(() => {
-		darkMode.set(getTheme() === 'dark');
-		darkMode.subscribe((value) => {
-			document.documentElement.setAttribute('data-theme', value ? 'dark' : 'light');
-		});
-	});
 </script>
 
 <nav>
