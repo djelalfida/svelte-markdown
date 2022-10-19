@@ -6,7 +6,7 @@
 
 <Card
 	image={'https://appstronauts.co/wp-content/uploads/2021/05/10-companies-using-svelte.jpg'}
-	title={'Random Placeholder for project'}
+	title={'The best project ever'}
 	tags={'svelte javascript typescript deploy'}
 	description={'Some random description for the project'}
 />
