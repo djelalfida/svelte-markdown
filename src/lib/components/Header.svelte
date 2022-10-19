@@ -1,17 +1,28 @@
 <script>
+	import { darkMode } from '$lib/stores/stores';
 	import { onMount } from 'svelte';
 
 	function toggle() {
-		isDark = !isDark;
+		darkMode.update((value) => !value);
 		const theme = getTheme() == 'light' ? 'dark' : 'light';
+		saveToLocalStorage(theme);
 		document.documentElement.setAttribute('data-theme', theme);
 	}
 
 	function getTheme() {
-		return document.documentElement.getAttribute('data-theme');
+		return localStorage.getItem('theme');
 	}
 
-	let isDark = true;
+	function saveToLocalStorage(theme) {
+		localStorage.setItem('theme', theme);
+	}
+
+	onMount(() => {
+		darkMode.set(getTheme() === 'dark');
+		darkMode.subscribe((value) => {
+			document.documentElement.setAttribute('data-theme', value ? 'dark' : 'light');
+		});
+	});
 </script>
 
 <nav>
@@ -21,13 +32,12 @@
 		<li><a href="/project">Projects</a></li>
 		<li class="dark">
 			<a on:click|preventDefault={toggle} href="#">
-				{#if isDark}
+				{#if $darkMode}
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 24 24"
 						fill="none"
 						stroke="currentColor"
-						class="h-5 w-5 text-gray-800 dark:text-yellow-100"
 					>
 						<path
 							stroke-linecap="round"
@@ -81,6 +91,10 @@
 		height: 25px;
 	}
 
+	nav ul li a svg path {
+		fill: #fff;
+	}
+
 	.dark {
 		background-color: rgb(42 46 53);
 		padding: 0.2rem 0.8rem;
@@ -88,9 +102,8 @@
 		margin-left: auto;
 	}
 
-	.dark img {
-		fill: white;
-		width: 1.5rem;
+	.dark a {
+		color: #fff;
 	}
 
 	.dark a {

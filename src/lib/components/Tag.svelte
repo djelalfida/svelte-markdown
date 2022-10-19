@@ -12,7 +12,7 @@
 		display: inline-block;
 		border-radius: 0.375rem;
 		border-style: none;
-		background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+		background-color: rgb(28, 32, 36);
 		--tw-bg-opacity: 0.3;
 		padding: 0.25rem 0.5rem 0.375rem;
 		font-size: 0.75rem;
@@ -66,7 +66,7 @@
 		background: #ff2d20;
 		color: #fff;
 
-		box-shadow: 0 0 10px #ff2d20, 0 0 40px #e8271c, 0 0 80px #ff2d20;
+		/* box-shadow: 0 0 10px #ff2d20, 0 0 40px #e8271c, 0 0 80px #ff2d20; */
 	}
 
 	.vue {

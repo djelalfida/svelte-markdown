@@ -43,7 +43,7 @@
 
 <style>
 	.card {
-		background-color: rgb(42 46 53);
+		background-color: var(--card-bg-color);
 		border-radius: 15px;
 
 		box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
@@ -83,7 +83,7 @@
 	}
 
 	article p {
-		color: rgb(178 190 205);
+		color: var(--card-description-color);
 	}
 
 	h5 {

@@ -15,11 +15,15 @@
 :root {
 	--bg-color: rgb(18 24 27);
 	--white-color: #fff;
+	--card-bg-color: rgb(42 46 53);
+	--card-description-color: rgb(178 190 205);
 }
 
 [data-theme='light'] {
 	--bg-color: #fff;
 	--white-color: rgba(3, 3, 20, 0.99);
+	--card-bg-color: #fff;
+	--card-description-color: rgb(75, 81, 89);
 }
 
 body {

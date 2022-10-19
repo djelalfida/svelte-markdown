@@ -1,3 +1,5 @@
+import { darkMode } from '$lib/stores/stores';
+
 /** @type {import('./$types').PageLoad} */
 export const load = async ({ fetch }) => {
 	const response = await fetch(`/api/posts`);
