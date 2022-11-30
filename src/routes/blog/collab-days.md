@@ -1,7 +1,7 @@
 ---
 title: My day at CollabDays in Brussels
 author: Djelal Fida
-date: 2022-15-10
+date: 2022-10-15
 cover: https://pbs.twimg.com/media/FfFr0guXEAAiHEM?format=jpg&name=large
 coverAlt: CollabDays 2022 in Brussels
 description: My day at CollabDays in Brussels 2022.

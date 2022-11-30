@@ -162,4 +162,19 @@
 		background: #a4c8ff;
 		color: #000;
 	}
+
+	.dell {
+		background: linear-gradient(90deg, #007dc1, #00b4f0);
+		color: #fff;
+	}
+
+	.intel {
+		background: linear-gradient(90deg, #0071c5, #00a1f1);
+		color: #fff;
+	}
+
+	.brussels {
+		background: linear-gradient(90deg, #ff0000, #ff6a00);
+		color: #fff;
+	}
 </style>
