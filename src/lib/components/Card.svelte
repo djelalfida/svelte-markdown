@@ -80,6 +80,8 @@
 
 	article img {
 		max-width: 100%;
+		aspect-ratio: 3/2;
+		object-fit: cover;
 	}
 
 	article p {
