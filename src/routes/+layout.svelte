@@ -2,6 +2,7 @@
 	import Header from '$lib/components/Header.svelte';
 	import { fly } from 'svelte/transition';
 	import { backOut } from 'svelte/easing';
+	import { page } from '$app/stores';
 
 	export let data;
 </script>
@@ -21,5 +22,11 @@
 	main {
 		width: 80%;
 		margin: 0 auto;
+	}
+
+	@media (max-width: 600px) {
+		main {
+			width: 100% !important;
+		}
 	}
 </style>

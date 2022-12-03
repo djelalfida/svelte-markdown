@@ -43,6 +43,11 @@ export async function GET() {
                 <priority>0.7</priority>
             </url>
             <url>
+                <loc>https://djelalfida.com/blog/hack-the-future</loc>
+                <changefreq>daily</changefreq>
+                <priority>0.7</priority>
+            </url>
+            <url>
                 <loc>https://djelalfida.com/blog/hello-world</loc>
                 <changefreq>daily</changefreq>
                 <priority>0.7</priority>
