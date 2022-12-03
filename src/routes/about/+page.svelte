@@ -15,7 +15,7 @@
 	/>
 
 	<p>
-		My name is <span>{name}</span>. {description}
+		Hi, I'm <span>{name}</span>. {description}
 	</p>
 
 	<img

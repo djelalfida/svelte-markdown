@@ -67,7 +67,7 @@
 				reactionsEnabled="1"
 				emitMetadata="0"
 				inputPosition="top"
-				theme="dark"
+				theme={$darkMode ? 'dark' : 'light'}
 				lang="en"
 				loading="lazy"
 			/>
