@@ -6,10 +6,13 @@
 </script>
 
 <svelte:head>
-	<title>Welcome to {name}'s blog</title>
+	<title>Welcome to {name}'s website</title>
 
 	<meta name="description" content="{name} personal website" />
-	<meta name="keywords" content="blog, svelte, sveltekit, djelalfida, djelal, fida" />
+	<meta
+		name="keywords"
+		content="blog, svelte, sveltekit, djelalfida, djelal, fida, dibra, dibra e madhe, shqiptar, shqip"
+	/>
 
 	<meta property="og:title" content="{name} personal website" />
 	<meta property="og:description" content="Welcome to {name}'s blog" />
