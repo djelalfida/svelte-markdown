@@ -21,7 +21,7 @@ gradient: ['#0071c5', '#00a1f1']
 
 Hack the Future 2022 is a hackathon that is organized by the Cronos Group which was held in the handelsbeurs in Antwerp.
 
-# 🪪 My challenge (i8c)
+# 🪪 My challenge by I8C
 
 > The world is about to perish. We need help, but no human help is sufficient, so magicians had to step in. Using their magic they can save our world (hopefully), but they need to use Earthly spells otherwise it will have no effect in our world! We have already acquired the Earthly spells for you, but the magicians need them in an Ancient language called PigLatin. It is your job to translate them and make sure they arrive at the correct destination before it is too late...
 
