@@ -177,4 +177,29 @@
 		background: linear-gradient(90deg, #ff0000, #ff6a00);
 		color: #fff;
 	}
+
+	.aws {
+		background: linear-gradient(90deg, #ff9900, #ffbb00);
+		color: rgb(255, 255, 255);
+	}
+
+	.hackathon {
+		background: #22aaff;
+		color: #fff;
+	}
+
+	.antwerp {
+		background: #ff0000;
+		color: #fff;
+	}
+
+	.cloud {
+		background: #c7c7c7;
+		color: rgb(24, 24, 24);
+	}
+
+	.lambda {
+		background: #11a95a;
+		color: #fff;
+	}
 </style>
