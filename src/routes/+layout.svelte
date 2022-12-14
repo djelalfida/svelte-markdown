@@ -1,8 +1,6 @@
 <script>
 	import Header from '$lib/components/Header.svelte';
 	import { fly } from 'svelte/transition';
-	import { backOut } from 'svelte/easing';
-	import { page } from '$app/stores';
 
 	export let data;
 </script>
