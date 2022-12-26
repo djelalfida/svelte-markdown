@@ -11,7 +11,7 @@
 	<meta name="description" content="{name} personal website" />
 	<meta
 		name="keywords"
-		content="blog, svelte, sveltekit, djelalfida, djelal, fida, dibra, dibra e madhe, shqiptar, shqip"
+		content="blog, svelte, sveltekit, djelalfida, djelal, fida, Djelal Fida, linkedin Djelal Fida, Fida Djelal"
 	/>
 
 	<meta property="og:title" content="{name} personal website" />
