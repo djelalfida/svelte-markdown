@@ -2,7 +2,7 @@
 title: Hack the Future 2022
 author: Djelal Fida
 date: 2022-11-15
-cover: /images/covers/htf2022.jpg
+cover: https://res.cloudinary.com/tesell/image/upload/c_scale,q_56,w_1279/v1672451642/blog/htf2022_byiyvr.webp
 coverAlt: Hack the Future 2022
 description: Hack the future 2022, a hackathon organized by the Cronos Group.
 tags: hackathon antwerp node aws cloud lambda
