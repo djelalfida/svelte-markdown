@@ -2,7 +2,7 @@
 title: Dell Technologies Forum Brussels
 author: Djelal Fida
 date: 2022-11-24
-cover: https://media-exp1.licdn.com/dms/image/C4E22AQHr9IDu5tqAAA/feedshare-shrink_1280/0/1669323546034?e=1672876800&v=beta&t=OdcEQi_tmaYvMpSMfv1hpkTyQ_yR0WZQb9TAdAxyJl8
+cover: https://res.cloudinary.com/tesell/image/upload/c_scale,q_auto:good,w_868/v1672451369/blog/1669323546034_hqhqqq.webp
 coverAlt: Dell Technologies Forum 2022 Brussels
 description: My day at Dell Technologies Forum 2022 Brussels.
 tags: event microsoft dell intel brussels conference
@@ -23,7 +23,7 @@ Dell Technologies Forum 2022 Brussels is a conference that is organized by Dell 
 
 # 🪪 My badge
 
-<Image imgUrl="https://media-exp1.licdn.com/dms/image/C4E22AQG3iR8ShEo8OA/feedshare-shrink_1280/0/1669323543983?e=1672876800&v=beta&t=Vm8TeNcM8w5LAFnSV5FkuxsRdSVUab2Q2Pb5AFRslRs" size="small" altText="My beautiful attendee badge" />
+<Image imgUrl="https://res.cloudinary.com/tesell/image/upload/q_auto:good/v1672451527/blog/1669323543983_mbwxiv.webp" size="small" altText="My beautiful attendee badge" />
 
 the spnsors
 
