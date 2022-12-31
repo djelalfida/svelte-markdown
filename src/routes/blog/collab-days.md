@@ -2,7 +2,7 @@
 title: My day at CollabDays in Brussels
 author: Djelal Fida
 date: 2022-10-15
-cover: https://pbs.twimg.com/media/FfFr0guXEAAiHEM?format=jpg&name=large
+cover: https://res.cloudinary.com/tesell/image/upload/c_scale,q_auto:good,w_1270/v1672451771/blog/FfFr0guXEAAiHEM_gndeqy.webp
 coverAlt: CollabDays 2022 in Brussels
 description: My day at CollabDays in Brussels 2022.
 tags: event microsoft powerplatform azure powershell powerautomate
