@@ -11,6 +11,11 @@ tags: about
 
 I'm Djelal Fida, a software engineer student at Howest in Bruges. I'm currently in my 3rd year of my bachelor's degree in software engineering. I like to learn new things and I'm always looking for new challenges. I'm a big fan of Laravel and Nodejs. I'm always looking for new ways to improve my skills and I'm always looking for new challenges. Lately I've been learning Svelte and SvelteKit.
 
+# 🔗 Socials
+
+- [Github](https://github.com/djelalfida)
+- [LinkedIn](https://www.linkedin.com/in/djelalfida/)
+
 # 🔭 Technologies I use
 
 - Laravel

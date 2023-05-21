@@ -11,7 +11,7 @@ pre[class*='language-'] {
 	background-color: rgb(18 24 27);
 	text-shadow: none;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
+	font-size: 1rem;
 	line-height: 1.5;
 	letter-spacing: 0.2px;
 	white-space: pre;

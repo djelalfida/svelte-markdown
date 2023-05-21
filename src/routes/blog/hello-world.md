@@ -7,21 +7,53 @@ description: How I made my blog using Svelte
 tags: javascript svelte md
 ---
 
-# 🚀 How I made my blog using Svelte
+<script>
+    import File from "$lib/components/File.svelte";
+</script>
 
-If you are looking to create a fast and smooth-loading blog, then using SvelteKit and MDsvex is a great option.
+> A quick blog post about how I made my blog using SvelteKit.
 
-SvelteKit is a framework for building web applications. It is known for its speed and small bundle size, making it ideal for creating blogs that load quickly and efficiently. SvelteKit also offers a great developer experience, with a simple and intuitive API that makes it easy to get started.
+# 🚀 How I made my blog using SvelteKit
 
-MDsvex, on the other hand, is a library that allows you to write your blog posts in Markdown and render them as Svelte components. This means that you can write your posts using a simple and easy-to-read syntax, and then have them automatically converted into performant, interactive Svelte components.
+I've been nothing but impressed with SvelteKit so far. It's a great framework for building full-stack web applications. It's fast, easy to use, and has a great community that is growing day by day. I've been using it for 8 months now and I'm really enjoying it. I've been using it to build my blog and I thought I'd share how I did it.
 
-Together, SvelteKit and MDsvex make for a powerful combination that allows you to create fast-loading, interactive blog posts with minimal effort. Whether you are a seasoned developer or just starting out, SvelteKit and MDsvex are great tools to have in your toolkit.
+> I used the following blog post by Josh Collinsworth as a starting point for my blog: [How to build a blog with SvelteKit](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog)
 
-In summary, using SvelteKit and MDsvex for your blog offers the following benefits:
+# 🔭 What is MDsveX?
 
-    Fast-loading and efficient blog posts
-    Simple and intuitive developer experience
-    Easy-to-use Markdown syntax for writing posts
-    Automatic conversion of Markdown into performant Svelte components
+[MDSveX](https://mdsvex.com/) is a Markdown preprocessor for SvelteKit, meaning you can use Markdown syntax in your Svelte components. It's a great way to write content for your blog without having to worry about HTML tags or other syntax. Which is perfect for blogs like mine.
 
-If you want to create a high-quality blog that offers a great user experience, give SvelteKit and MDsvex a try.
+> The following is an example of a markdown file that represents a blog post:
+
+<File fileName="post" fileType="md" />
+
+```md
+---
+title: How I made my blog using Svelte
+author: Someone
+date: 2022-10-10
+cover: A cover
+description: How I made my blog using Svelte
+tags: javascript svelte md
+---
+
+# Title
+
+Some content
+```
+
+# 🟢 Hosting?
+
+I'm using Hetzner Cloud to host my blog, Hernzer is a IaaS provider that offers a wide range of servers. Currently my project is hosted on of of their VPS's. Using Nginx as my webserver and Cloudflare as my CDN & reverse proxy which gives me a lot of benefits like caching, security(SSL), and more. With over 250+ POPs(Point Of Presence) around the world, Cloudflare is a great choice for a CDN.
+
+# 📈 Deployment
+
+As I'm using the Sveltekit static adapter, I get static files in a `build` folder by running `npm run build`. With the help of Github Actions I can automate this process. I've created a Github Action that runs `npm run build` and then uploads the static files to my server. This way I don't have to worry about building the project myself.
+
+# 🤔 What is the difference between Svelte and SvelteKit?
+
+Svelte is the transpiler and the language that we use to build the Svelte components. SvelteKit is the framework that we use to build the full-stack web application. SvelteKit is built on top of Svelte. SvelteKit offers a lot of features that Svelte doesn't have. For example, SvelteKit has a built-in router, SSR, SSG, API routes, ...etc. You can perfectly use Svelte components in your SvelteKit application. Just like you have React and Next.js, you have Svelte and SvelteKit.
+
+# 📝 GitHub repo
+
+You can find the source code of my blog on [Github](https://github.com/djelalfida/svelte-markdown)

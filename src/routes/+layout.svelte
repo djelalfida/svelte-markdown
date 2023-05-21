@@ -1,6 +1,7 @@
 <script>
 	import Header from '$lib/components/Header.svelte';
 	import { fly } from 'svelte/transition';
+	import '../fireship.scss';
 
 	export let data;
 </script>

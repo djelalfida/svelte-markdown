@@ -86,6 +86,7 @@
 
 	article p {
 		color: var(--card-description-color);
+		margin-top: 0;
 	}
 
 	h5 {

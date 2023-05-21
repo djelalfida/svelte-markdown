@@ -6,12 +6,16 @@
 	<h1>About me</h1>
 
 	<img
-		src="https://media-exp1.licdn.com/dms/image/D4E03AQE_4749eTvC-Q/profile-displayphoto-shrink_800_800/0/1668706960705?e=1675296000&v=beta&t=xbkuavVdGc4vmIWb9qGhQ3OHAMxuEuQfTUwQRg4xsw0"
+		src="https://media.licdn.com/dms/image/D4E03AQE_4749eTvC-Q/profile-displayphoto-shrink_800_800/0/1668706960705?e=1690416000&v=beta&t=JGoXaeXW-8ESZaDBkjuJxGMCz8m37aqL33IUZU4jQhQ"
 		alt="profile"
 	/>
 
 	<p>
 		Hi, I'm <span>{name}</span>. {description}
+	</p>
+
+	<p>
+		<span><a href="/files/CV.pdf" target="_blank" rel="noreferrer">My resume</a></span>
 	</p>
 
 	<img
