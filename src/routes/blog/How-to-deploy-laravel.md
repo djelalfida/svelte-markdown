@@ -5,7 +5,7 @@ date: 2022-10-10
 cover: https://lorisleiva.com/assets/articles/2021/0405-deployer-series/cover.jpg
 description: How to deploy a Laravel application
 tags: laravel php deploy linux
-visible: false
+visible: true
 ---
 
 # Step 1: Install Composer
