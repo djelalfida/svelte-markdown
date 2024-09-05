@@ -8,21 +8,21 @@
 <svelte:head>
 	<title>{name} | Software Engineer</title>
 
-	<meta name="description" content="{name}| Software Engineer" />
+	<meta name="description" content="{name} | Software Engineer" />
 	<meta
 		name="keywords"
 		content="blog, svelte, sveltekit, djelalfida, djelal, fida, Djelal Fida, linkedin Djelal Fida, Fida Djelal"
 	/>
 
-	<meta property="og:title" content="{name}| Software Engineer" />
+	<meta property="og:title" content="{name} | Software Engineer" />
 	<meta
 		property="og:description"
 		content="My personal website, you can find my blog and my projects"
 	/>
 	<meta property="og:url" content="https://djelalfida.com" />
 
-	<meta name="twitter:title" content="{name}| Software Engineer" />
-	<meta name="twitter:description" content="{name}| Software Engineer" />
+	<meta name="twitter:title" content="{name} | Software Engineer" />
+	<meta name="twitter:description" content="{name} | Software Engineer" />
 
 	<link rel="canonical" href="https://djelalfida.com" />
 </svelte:head>
