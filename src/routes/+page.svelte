@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>{name}| Software Engineer</title>
+	<title>{name} | Software Engineer</title>
 
 	<meta name="description" content="{name}| Software Engineer" />
 	<meta
