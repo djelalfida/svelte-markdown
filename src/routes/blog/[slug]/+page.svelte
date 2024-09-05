@@ -8,6 +8,8 @@
 
 	export let data;
 
+	console.log(data);
+
 	const gradient = data.gradient
 		? `linear-gradient(to right, ${data.gradient[0]}, ${data.gradient[1]})`
 		: 'linear-gradient(to right, #0fe468, #49c6ec)';
@@ -42,14 +44,7 @@
 			<Tag tagName={tag} />
 		{/each}
 	</div>
-	<Toc
-		--toc-width="20%"
-		--toc-active-bg="linear-gradient(to right, #007fff, #00b4ff)"
-		--toc-mobile-bg="#000"
-		--toc-li-padding="2%"
-		--toc-hover-color="#00b4ff"
-		--toc-desktop-sticky-top="10%"
-	/>
+
 	<section id="content">
 		<Image imgUrl={data.cover} altText={data.coverAlt} size="medium max-size" />
 		<svelte:component this={data.content} />
